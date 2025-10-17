@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote 
+     fetch="https://github.com/" 
+     name="qcom-eng-QSWATQA" />
+    <remote
+      fetch="https://github.com/"
+      name="qualcomm-linux-stg" />   
+  <remote 
+     fetch="ssh://review-android-dev3.quicinc.com:29418/" 
+     name="gerrit" 
+     review="review-android-dev3.quicinc.com" />
+  <default 
+     remote="gerrit" 
+     revision="m" />
+  <remote 
+    fetch="https://github.qualcomm.com/" 
+    name="coral-qa" />
+<project
+  dest-branch="refs/heads/qcigitqa1.githube.1.8" 
+  name="qcom-eng-QSWATQA/githube.qcigitqa1a" 
+  path="ManifestFileGitHubPublic_GitHubEmu/githube.qcigitqa1a" 
+  remote="qcom-eng-QSWATQA" 
+  revision="refs/tags/qcigitqa1.githube.1.8-00001" 
+  upstream="refs/heads/qcigitqa1.githube.1.8" 
+  x-component-name="qcigitqa1.githube.1.8" 
+  x-component-revision="qcigitqa1.githube.1.8-00001" 
+/>
+<project 
+  dest-branch="refs/heads/qcigitqa1.githube.1.8" 
+  name="qcom-eng-QSWATQA/githube.qcigitqa1b" 
+  path="ManifestFileGitHubPublic_GitHubEmu/githube.qcigitqa1b" 
+  remote="qcom-eng-QSWATQA" 
+  revision="refs/tags/qcigitqa1.githube.1.8-00001" 
+  upstream="refs/heads/qcigitqa1.githube.1.8" 
+  x-component-name="qcigitqa1.githube.1.8" 
+  x-component-revision="qcigitqa1.githube.1.8-00001" 
+/>
+    <project 
+  dest-branch="refs/heads/qcigitqa2.githubq.1.8" 
+  name="tools/qswat/githube.qcigitqa2a" 
+  path="ManifestFileGitHubPublic_Gerrit/githube.qcigitqa2a" 
+  remote="qualcomm-linux-stg" 
+  revision="refs/tags/qcigitqa2.githubq.1.8-00001" 
+  upstream="refs/heads/qcigitqa2.githubq.1.8" 
+  x-component-name="qcigitqa2.githubq.1.8" 
+  x-component-revision="qcigitqa2.githubq.1.8-00001" 
+/>
+  <project 
+  dest-branch="refs/heads/qcigitqa2.githubq.1.8" 
+  name="tools/qswat/githube.qcigitqa2b" 
+  path="ManifestFileGitHubPublic_Gerrit/githube.qcigitqa2b" 
+  remote="qualcomm-linux-stg" 
+  revision="refs/tags/qcigitqa2.githubq.1.8-00001" 
+  upstream="refs/heads/qcigitqa2.githubq.1.8" 
+  x-component-name="qcigitqa2.githubq.1.8" 
+  x-component-revision="qcigitqa2.githubq.1.8-00001" 
+/>
+<project 
+  dest-branch="refs/heads/qcigitqa3.githubq.1.8" 
+  name="coral-qa/githube.qcigitqa3a" 
+  path="ManifestFileGitHubPublic_GitHubInternal/githube.qcigitqa3a" 
+  remote="coral-qa" 
+  revision="refs/tags/qcigitqa3.githubq.1.8-00001" 
+  upstream="refs/heads/qcigitqa3.githubq.1.8" 
+  x-component-name="qcigitqa3.githubq.1.8" 
+  x-component-revision="qcigitqa3.githubq.1.8-00001" 
+/>
+<project 
+  dest-branch="refs/heads/qcigitqa3.githubq.1.8" 
+  name="coral-qa/githube.qcigitqa3b" 
+  path="ManifestFileGitHubPublic_GitHubInternal/githube.qcigitqa3b" 
+  remote="coral-qa" 
+  revision="refs/tags/qcigitqa3.githubq.1.8-00001" 
+  upstream="refs/heads/qcigitqa3.githubq.1.8" 
+  x-component-name="qcigitqa3.githubq.1.8" 
+  x-component-revision="qcigitqa3.githubq.1.8-00001" 
+/>
+<project 
+  dest-branch="refs/heads/qcigitqa4.gerrit.1.8" 
+  name="tools/qswat/git1a" 
+  path="ManifestFileGitHubPublic_Gerrit/git1a" 
+  remote="gerrit" 
+  revision="refs/tags/qcigitqa4.gerrit.1.8-00001" 
+  upstream="refs/heads/qcigitqa4.gerrit.1.8" 
+  x-component-name="qcigitqa4.gerrit.1.8" 
+  x-component-revision="qcigitqa4.gerrit.1.8-00001" 
+/>
+<project 
+  dest-branch="refs/heads/qcigitqa4.gerrit.1.8" 
+  name="tools/qswat/git1b" 
+  path="ManifestFileGitHubPublic_Gerrit/git1b" 
+  remote="gerrit" 
+  revision="refs/tags/qcigitqa4.gerrit.1.8-00001" 
+  upstream="refs/heads/qcigitqa4.gerrit.1.8" 
+  x-component-name="qcigitqa4.gerrit.1.8" 
+  x-component-revision="qcigitqa4.gerrit.1.8-00001" 
+/>
+</manifest>
