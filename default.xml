@@ -39,7 +39,7 @@
     <project 
   dest-branch="refs/heads/qcigitqa2.githubq.1.8" 
   name="tools/qswat/githube.qcigitqa2a" 
-  path="ManifestFileGitHubPublic_Gerrit/githube.qcigitqa2a" 
+  path="ManifestFileGitHubPublic_GitHubPublic/githube.qcigitqa2a" 
   remote="qualcomm-linux-stg" 
   revision="refs/tags/qcigitqa2.githubq.1.8-00001" 
   upstream="refs/heads/qcigitqa2.githubq.1.8" 
@@ -49,7 +49,7 @@
   <project 
   dest-branch="refs/heads/qcigitqa2.githubq.1.8" 
   name="tools/qswat/githube.qcigitqa2b" 
-  path="ManifestFileGitHubPublic_Gerrit/githube.qcigitqa2b" 
+  path="ManifestFileGitHubPublic_GitHubPublic/githube.qcigitqa2b" 
   remote="qualcomm-linux-stg" 
   revision="refs/tags/qcigitqa2.githubq.1.8-00001" 
   upstream="refs/heads/qcigitqa2.githubq.1.8" 
